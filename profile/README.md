@@ -24,7 +24,7 @@ Onboarding in the blockchain space has been a significant challenge due to compl
 ## ♟️ Useful Links
 [Website](https://plentifi.xyz)
 [Demo](https://plentifi.xyz)
-[LinkedIn](https://plentifi.xyz](https://www.linkedin.com/company/103131730)
+[LinkedIn](https://www.linkedin.com/company/103131730)
 
 ## 📑 Litepaper
 Coming soon
