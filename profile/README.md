@@ -1,7 +1,8 @@
 
 # PlentiFi - Blockchain Made Easy 🔗
 
-Welcome to PlentiFi! PlentiFi is designed to simplify the implementation and usage of blockchain technology. Developed by Amaury Denny and Nathan Hervier, this solution addresses the barriers to entry for both developers and end-users, aiming to make blockchain as accessible and user-friendly as Web2 applications. PlentiFi is a non-custodial Account Abstraction solution powered by biometrics, enabling seamless interaction with blockchain protocols.
+Welcome to PlentiFi! <br>
+PlentiFi is designed to simplify the implementation and usage of blockchain technology. This solution addresses the barriers to entry for both developers and end-users, aiming to make blockchain as accessible and user-friendly as Web2 applications. PlentiFi is a non-custodial Account Abstraction solution powered by biometrics and session keys, enabling seamless interaction with blockchain protocols.
 
 ## ⌚️ State of the Art
 
