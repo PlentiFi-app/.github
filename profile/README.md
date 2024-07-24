@@ -27,7 +27,7 @@ Onboarding in the blockchain space has been a significant challenge due to compl
 - [LinkedIn](https://www.linkedin.com/company/103131730)
 
 ## 📑 Litepaper
-Coming soon
+[Litepaper.pdf](https://github.com/user-attachments/files/16361767/Litepaper.1.pdf)
 
 ## PlentiFi on the XRP Ledger: System Design Diagrams and Narrative <img src="https://cryptologos.cc/logos/xrp-xrp-logo.png?v=032" alt="XRP" width="20"/>
 
