@@ -32,11 +32,10 @@ Coming soon
 ## PlentiFi on the XRP Ledger: System Design Diagrams and Narrative <img src="https://cryptologos.cc/logos/xrp-xrp-logo.png?v=032" alt="XRP" width="20"/>
 
 ### Create a Smart Account on the XRP Ledger
-![Screenshot from 2024-07-24 11-18-16](https://github.com/user-attachments/assets/8592b812-983d-4274-a5b6-0e43dbf9e08c)
-
+<img src="https://github.com/user-attachments/assets/8592b812-983d-4274-a5b6-0e43dbf9e08c" alt="Screenshot from 2024-07-24 11-18-16" width="500"/>
 
 ### Smart Account Transaction on XRPL
-![Screenshot from 2024-07-24 11-19-32](https://github.com/user-attachments/assets/b6c046e6-1824-4f2e-b1ac-1e1960f96faa)
+<img src="https://github.com/user-attachments/assets/b6c046e6-1824-4f2e-b1ac-1e1960f96faa" alt="Screenshot from 2024-07-24 11-19-32" width="500"/>
 
 
 **Custom Account Abstraction Mechanism**
@@ -83,40 +82,45 @@ More will be added in the future
 
 ### Non-Custodial Solution
 
-PlentiFi is a non-custodial solution, meaning users have full control over their private keys and assets. This enhances security and ensures that users are the sole owners of their funds.
+PlentiFi is a non-custodial solution, meaning users have full control over account and assets. This enhances security and ensures that users are the sole owners of their funds.
 
 ### Use of Biometrics and Session Keys
 
 To provide a seamless and secure user experience, PlentiFi utilizes biometric authentication (WebAuthn) and session keys. This approach eliminates the need for traditional seed phrases, making the onboarding process straightforward and secure. Users can authorize transactions with biometrics, ensuring ease of use without compromising security.
+Session Keys can significantly change the way users interact with dApps (decentralized applications). The idea is to let users create a session key that pre-approves transactions within a dApp for a specific time, up to a certain limit and with particular rules. This means users can use their favorite project without having to repeatedly confirm transactions through their wallet.
+
+#### 🔑​ Key Features of Session Keys:
+- **Predefined Actions**: Users predefine the allowed actions, enabling them to interact with a protocol while ensuring their assets remain secure.
+- **User Convenience**: Currently, most dApps require users to sign transactions repeatedly, which is inconvenient for users who perform many transactions. Session Keys reduce this inconvenience by allowing predefined approvals.
+- **Customizable Limits**: Session Keys can be customized in various ways, such as setting a time limit, maximum gas limit, maximum transaction volume for a specific token, or allowing only certain functions on a specific program.
+
+#### Example Use Case:
+For instance, Session Keys could significantly enhance the user experience for derivative exchanges on Solana like Drift, Zeta, or Cypher. A trader could create a session key valid for one hour, allowing them to trade up to $50,000 without needing to confirm each transaction with their wallet. This would create an experience similar to what users enjoy on centralized exchanges like Binance, without the cons of centralization.
+
+By offering tailored “keys” for different purposes and users, protocols can provide a more user-friendly experience while minimizing risks associated with repeated transaction confirmations. This flexibility and enhanced control make Session Keys a powerful tool for improving the overall dApp interaction experience.
 
 
-## 📦 Off-the-Shelf Code and Libraries
+### 📚 Our Open Source Contributions
 
-PlentiFi uses several off-the-shelf libraries and frameworks to streamline development:
+PlentiFi is committed to the open-source community and has made significant contributions to enhance blockchain development. Here are some of our key contributions:
 
-- **React**: For building the user interface.
-- **TypeScript**: For type-safe JavaScript development.
-- **Web3.js**: For interacting with the Ethereum blockchain.
-- **XRPL.js**: For interacting with the XRP Ledger.
-- **WebAuthn**: For biometric authentication.
+- **Deterministic Smart Contract Deployment Architecture**: Our innovative architecture allows developers to deploy any contracts with the same address on multiple blockchains, requiring only one EOA transaction per blockchain. This is possible even if the contracts do not have the same bytecode. Additionally, the contracts can be upgradable, providing flexibility and future-proofing for decentralized applications.
 
-If the code is forked or based on other projects, the original work/code is located at:
+- **Account Abstraction SDK on the XRPLedger**: We provide an abstraction layer that enables developers to create seamless and non-custodial integrations with ease. The open-source nature of this SDK allows developers from the XRPL community to build more secure, user-friendly wallets and applications. This abstraction simplifies the user experience, making it more intuitive and driving broader adoption of the XRPL ecosystem.
 
-- [Original Project Repository](https://github.com/original-repo)
 
-## 🛠 XRPL Integration
+## 📖​ Open Source Libraries we based our work on
 
-The XRPL integration takes place primarily in the following areas of the code:
+PlentiFi leverages several open-source libraries to build a robust and efficient platform. Here are the key libraries we use:
 
-- **src/services/xrplService.ts**: Contains functions for interacting with the XRPL.
-- **src/components/TransactionComponent.tsx**: Handles transaction signing and submission using XRPL.
-- **src/views/AccountView.tsx**: Manages user accounts and multi-signature setups with XRPL.
+- **Kernel v3.1**: [Kernel v3.1 Repository](https://github.com/zerodevapp/kernel/tree/release/v3.1)
 
-For more detailed information on specific integration points, please refer to the inline comments and documentation within the source code.
+- **ZeroDev SDK**: [ZeroDev SDK Repository](https://github.com/zerodevapp/sdk)
 
----
+- **SmoothCryptoLib**: [FreshCryptoLib Repository](https://github.com/get-smooth/crypto-lib)
 
+​
+<br>
+<br>
 Thank you for choosing PlentiFi! We are excited to have you on board and look forward to simplifying your blockchain experience.
-```
 
-I have incorporated the provided diagrams and updated the sections with the additional details and expanded project summary. The provided image file IDs have been replaced with relative paths assuming you would place the diagrams in an `images` directory within the repository. If you need further adjustments or additional details, feel free to let me know!
